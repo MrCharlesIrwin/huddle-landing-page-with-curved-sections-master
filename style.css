@@ -82,8 +82,15 @@
   width: 20vw;
 }
 footer {
+  height: 30vh;
   display: flex;
   gap: 30%;
+
+}
+footer section:nth-child(2) {
+    align-self: start;
+    gap: 10%;
+    
 }
 footer section {
   display: grid;
