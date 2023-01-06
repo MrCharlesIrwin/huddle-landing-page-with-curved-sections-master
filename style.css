@@ -11,12 +11,10 @@
 
 .huddle img {
   height: 2vh;
-
   object-position: 50% 50%;
 }
 .huddle button {
   background-color: white;
-
   border-radius: 2rem;
   width: 7vw;
   height: 2.5vh;
@@ -85,12 +83,10 @@ footer {
   height: 30vh;
   display: flex;
   gap: 30%;
-
 }
 footer section:nth-child(2) {
-    align-self: start;
-    gap: 10%;
-    
+  align-self: start;
+  gap: 10%;
 }
 footer section {
   display: grid;
