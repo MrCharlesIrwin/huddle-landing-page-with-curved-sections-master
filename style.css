@@ -3,6 +3,11 @@
   font-size: 11px;
 }
 
+
+button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
 .huddle {
   display: flex;
   justify-content: space-between;
@@ -22,7 +27,7 @@
 }
 .build {
   max-width: 80vw;
-  margin: auto;
+  margin: 13vh auto;
   text-align: center;
 }
 .build h1 {
@@ -39,6 +44,7 @@
 }
 .build > img {
   height: 40vh;
+  margin: 6vh auto;
 }
 .build section {
   width: 50vw;
@@ -48,17 +54,28 @@
 }
 .build section h1 {
   font-size: 3.5rem;
+  margin: 2vh 0;
 }
 .build section img {
-  height: 3vh;
+  height: 2vh;
+  display: block;
+  
 }
 
 .sections {
   display: flex;
   align-items: center;
   gap: 15%;
+  height: 50vh;
+  width: 90vh;
+margin: auto;
 }
-
+#first-img {
+  background-image: url(images/bg-section-bottom-desktop-1.svg);
+ background-repeat: no-repeat;
+  background-position: top,bottom;
+background-color:white;
+}
 .sections h3 {
   font-size: 1.4rem;
 }
@@ -67,6 +84,7 @@
 }
 .ready {
   text-align: center;
+  margin: 10vh auto;
 }
 .ready h3 {
   font-size: 1.4rem;
@@ -78,6 +96,7 @@
   color: white;
   height: 4vh;
   width: 20vw;
+  
 }
 footer {
   height: 30vh;
