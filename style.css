@@ -1,9 +1,14 @@
 * {
   border: 1px solid;
   font-size: 11px;
+  background-repeat: no-repeat;
+
+background-size: contain;
 }
 
-
+main {
+  background-color: black;
+}
 button:hover {
   opacity: .5;
   cursor: pointer;
@@ -70,11 +75,16 @@ button:hover {
   width: 90vh;
 margin: auto;
 }
+
 #first-img {
-  background-image: url(images/bg-section-bottom-desktop-1.svg);
- background-repeat: no-repeat;
+  background-image: url(images/bg-section-top-desktop-1.svg), url(images/bg-section-bottom-desktop-1.svg);
   background-position: top,bottom;
-background-color:white;
+  
+  
+}
+#second-img {
+  background-image: url(images/bg-section-top-desktop-2.svg), url(images/bg-section-bottom-desktop-2.svg);
+  background-position: top,bottom;
 }
 .sections h3 {
   font-size: 1.4rem;
@@ -102,6 +112,8 @@ footer {
   height: 30vh;
   display: flex;
   gap: 30%;
+  background-image: url(images/bg-footer-top-desktop.svg)  ;
+  background-position: top;
 }
 footer section:nth-child(2) {
   align-self: start;
