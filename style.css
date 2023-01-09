@@ -8,7 +8,6 @@
 
 main {
   margin: auto;
-  
 }
 button:hover {
   opacity: 0.5;
@@ -147,4 +146,35 @@ footer button {
 }
 footer div {
   margin-bottom: 2%;
+}
+
+@media (max-width: 600px) {
+  * {
+    font-size: 9px;
+  }
+  .huddle button {
+    height: 3.1vh;
+    width: 11vw;
+  }
+  .build button {
+    height: 5.2vh;
+    width: 23vw;
+  }
+  .build section img {
+    height: 4vh;
+  }
+  .build section {
+    flex-direction: column;
+  }
+  .sections {
+    flex-direction: column-reverse;
+    margin-bottom: 10%;
+  }
+  #column {
+    flex-direction: column;
+  }
+  .ready button {
+    height: 5.2vh;
+    width: 23vw;
+  }
 }
