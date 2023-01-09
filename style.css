@@ -6,7 +6,8 @@
   font-family: sans-serif;
 }
 
-main {
+body  {
+  width: 95vh;
   margin: auto;
 }
 button:hover {
@@ -14,6 +15,7 @@ button:hover {
   cursor: pointer;
 }
 .huddle {
+  margin-top: 5%;
   display: flex;
   justify-content: space-between;
   height: 3vh;
@@ -31,7 +33,7 @@ button:hover {
   color: red;
 }
 .build {
-  max-width: 80vw;
+  max-width: 30vw;
   margin: 13vh auto;
   text-align: center;
 }
@@ -45,14 +47,15 @@ button:hover {
   display: block;
   margin: 2vh auto;
   height: 4vh;
-  width: 20vw;
+  width: 10vw;
 }
 .build > img {
   height: 40vh;
   margin: 6vh auto;
 }
 .build section {
-  width: 50vw;
+  
+  width: 30vw;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -106,7 +109,7 @@ button:hover {
   margin-bottom: 2vh;
   color: white;
   height: 4vh;
-  width: 20vw;
+  width: 10vw;
 }
 footer {
   background-color: #1e2129;
@@ -133,14 +136,14 @@ footer h4 {
   border-radius: 0.3rem;
   border: none;
   height: 2.4vh;
-  width: 50%;
+  width: 55%;
   outline: none;
 }
 footer button {
   background-color: rgb(235, 39, 235);
   border-radius: 0.3rem;
-  margin-left: 5vw;
-  width: 10vw;
+  margin-left: 1vw;
+  width: 5vw;
   height: 3vh;
   color: white;
 }
@@ -150,11 +153,17 @@ footer div {
 
 @media (max-width: 600px) {
   * {
-    font-size: 9px;
+    font-size: 7px;
+  }
+  body {
+    width:80vw;
   }
   .huddle button {
     height: 3.1vh;
     width: 11vw;
+  }
+  .build {
+    max-width: 100%;
   }
   .build button {
     height: 5.2vh;
@@ -169,6 +178,8 @@ footer div {
   .sections {
     flex-direction: column-reverse;
     margin-bottom: 10%;
+    text-align: center;
+    width: 100%;
   }
   #column {
     flex-direction: column;
