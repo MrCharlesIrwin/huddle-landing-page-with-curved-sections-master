@@ -2,15 +2,16 @@
   border: 1px solid;
   font-size: 11px;
   background-repeat: no-repeat;
-
-background-size: contain;
+  background-size: contain;
+  font-family: sans-serif;
 }
 
 main {
-  background-color: black;
+  margin: auto;
+  
 }
 button:hover {
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
 }
 .huddle {
@@ -64,27 +65,28 @@ button:hover {
 .build section img {
   height: 2vh;
   display: block;
-  
 }
-
+.build p {
+  color: grey;
+}
 .sections {
   display: flex;
   align-items: center;
   gap: 15%;
   height: 50vh;
   width: 90vh;
-margin: auto;
+  margin: auto;
 }
 
 #first-img {
-  background-image: url(images/bg-section-top-desktop-1.svg), url(images/bg-section-bottom-desktop-1.svg);
-  background-position: top,bottom;
-  
-  
+  background-image: url(images/bg-section-top-desktop-1.svg),
+    url(images/bg-section-bottom-desktop-1.svg);
+  background-position: top, bottom;
 }
 #second-img {
-  background-image: url(images/bg-section-top-desktop-2.svg), url(images/bg-section-bottom-desktop-2.svg);
-  background-position: top,bottom;
+  background-image: url(images/bg-section-top-desktop-2.svg),
+    url(images/bg-section-bottom-desktop-2.svg);
+  background-position: top, bottom;
 }
 .sections h3 {
   font-size: 1.4rem;
@@ -97,7 +99,7 @@ margin: auto;
   margin: 10vh auto;
 }
 .ready h3 {
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 .ready button {
   border-radius: 2rem;
@@ -106,23 +108,43 @@ margin: auto;
   color: white;
   height: 4vh;
   width: 20vw;
-  
 }
 footer {
-  height: 30vh;
+  background-color: #1e2129;
+  color: whitesmoke;
+  height: 25vh;
   display: flex;
+  align-items: center;
   gap: 30%;
-  background-image: url(images/bg-footer-top-desktop.svg)  ;
   background-position: top;
 }
-footer section:nth-child(2) {
-  align-self: start;
-  gap: 10%;
-}
-footer section {
-  display: grid;
-  gap: 3%;
-}
+
 footer section > img {
-  height: 2vh;
+  height: 3.2vh;
+}
+footer section:nth-child(2) > div {
+  margin-top: 7%;
+}
+footer h4 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+#email {
+  border-radius: 0.3rem;
+  border: none;
+  height: 2.4vh;
+  width: 50%;
+  outline: none;
+}
+footer button {
+  background-color: rgb(235, 39, 235);
+  border-radius: 0.3rem;
+  margin-left: 5vw;
+  width: 10vw;
+  height: 3vh;
+  color: white;
+}
+footer div {
+  margin-bottom: 2%;
 }
