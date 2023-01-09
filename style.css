@@ -1,11 +1,13 @@
 * {
-  border: 1px solid;
+ 
   font-size: 11px;
   background-repeat: no-repeat;
   background-size: contain;
   font-family: sans-serif;
 }
-
+button {
+  border:none;
+}
 body  {
   width: 95vh;
   margin: auto;
@@ -31,6 +33,7 @@ button:hover {
   width: 7vw;
   height: 2.5vh;
   color: red;
+  border: solid 1px;
 }
 .build {
   max-width: 30vw;
@@ -118,7 +121,6 @@ footer {
   display: flex;
   align-items: center;
   gap: 30%;
-  background-position: top;
 }
 
 footer section > img {
@@ -177,7 +179,7 @@ footer div {
   }
   .sections {
     flex-direction: column-reverse;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     text-align: center;
     width: 100%;
   }
@@ -187,5 +189,22 @@ footer div {
   .ready button {
     height: 5.2vh;
     width: 23vw;
+  }
+  footer {
+    background-color: white;
+    color: #1e2129;
+     flex-direction: column-reverse;
+     gap: 17%;
+     height: 50vh;
+  }
+  #email {
+    border: solid 1px;
+    margin-left: 25%;
+    width: 67%;
+  }
+  footer button {
+    margin-left:56%;
+    margin-top: 3%;
+    width: 30vw;
   }
 }
